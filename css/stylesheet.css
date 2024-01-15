@@ -1,0 +1,241 @@
+*{
+    font-family: 'mulish', sans-serif;
+}
+img{
+    width: 100%;
+}
+.content h1{
+   font-size: 62px;
+   line-height: 69px;
+   color: #141414;
+   font-weight: 400;
+   text-align: right;
+   text-transform: uppercase;
+   margin: 30px 0;
+}
+.product-details-dresses div {
+    margin: auto;
+}
+.product-title{
+    color: #141414;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.product-title:hover{
+    text-decoration: underline;
+}
+.product-details span{
+     font-size: 14px;
+}
+.product-img{
+    position: relative;
+    height: 600px;
+    background-size: cover;
+    
+}
+.badge{
+    position: absolute;
+    background: white;
+    padding: 5px;
+    top: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 22px;
+    color: #0091ff;
+    font-weight: 400;
+    left: 5px;
+}
+.active{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.hero, .wild{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../assets/5c89caae57d74f721471c842_flaunter-com-1057012-unsplash.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-weight: 400;
+}
+.wild{
+    background-image: url(../assets/5c9a6360419f194ee3597d19_small-flaunter-com-1056931-unsplash.jpg);
+}
+.hero h4, .absolute-headline h4, .wild h4{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #141414;
+}
+.hero h1, .absolute-headline h1, .wild h1{
+    font-size: 62px;
+    line-height: 68px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #141414;
+}
+.street-chic{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.absolute-headline{
+    position: absolute;
+}
+section{
+    min-height: 75vh;
+}
+.search-box{
+    border-bottom: 1px solid #141414;
+    padding: 5px;
+}
+.search-box input{
+     border: 0;
+     padding-left: 5px;
+     background: transparent;
+}
+.cart{
+    border: 1px solid lightgray;
+    padding: 5px 10px;
+    background: white;
+    margin-left: 30px;
+}
+.nav-bold, .nav-item .nav-dropdown, .footer-item, .footer-title{
+    text-transform: uppercase;
+    color: #141414;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+.nav-bold, .nav-dropdown, .footer-title{
+    font-weight: 700;
+}
+.nav-item, .footer-item{
+    font-size: 11px;
+    font-weight: 400;
+}
+.mt{
+    margin-top: 20px;
+}
+.nav-bold:hover, .nav-dropdown:hover, .nav-item:hover{
+    text-decoration: underline;
+}
+.news-letter{
+    padding: 50px 0;
+    margin-top: 150px;
+    margin-bottom: 140px;
+}
+.news-letter,form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.news-letter h2{
+        text-transform: uppercase;
+        margin: 30px 0;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 36px;
+}
+.form-email{
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    text-align: center;
+}
+.form-btn{
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+.home .footer{
+    margin-left: 220px;
+}
+.footer{
+    border-top: 1px solid lightgray;
+    padding: 50px 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+}
+.help{
+    margin-left: 270px;
+}
+.follow-us{
+    margin-left: 150px;
+}
+.badge-wide{
+    position: absolute;
+    background: white;
+    padding: 1% 2%;
+    left: 5px;
+    top: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 22px;
+    color: #0091ff;
+    font-weight: 400;
+}
+.badge-sale{
+    position: absolute;
+    background: white;
+    padding: 5px;
+    margin-left: 95px;
+    top: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 22px;
+    color: rgb(223, 63, 63);
+    font-weight: 400;
+}
+.product-para{
+    margin-top: 250px;
+}
+.product-name{
+    color: black;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 70px;
+}
+.product-name:hover{
+    text-decoration: underline;
+}
+.product-p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:800px) {
+    .news-letter h2{
+        text-transform: uppercase;
+        margin: 30px 0;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .home .footer{
+        margin-left: 0;
+    }
+}
